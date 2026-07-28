@@ -15,5 +15,4 @@ A streamlined logistics and client communication platform designed to support Ai
 
 ## 📦 Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/airsellcargo-01/Project1.git
+   ```bas
