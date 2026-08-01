@@ -102,7 +102,7 @@
   <script>
     document.getElementById('whatsapp-quote').addEventListener('click', function () {
       const form = document.getElementById('quote-form');
-      if (!form.reportValidity()) return;
+      if (!form.reportValidity(https://portal.airsellcargo.com/thank.html)) return;
       const data = new FormData(form);
       const message = `Hello Airsell Cargo, I would like an HGA air-cargo quote.\n\nName: ${data.get('name')}\nPhone: ${data.get('phone')}\nOrigin: ${data.get('origin')}\nDestination: ${data.get('destination')}\nCargo ready date: ${data.get('ready_date')}\nPieces: ${data.get('pieces')}\nTotal gross weight: ${data.get('weight')}\nDimensions: ${data.get('dimensions')}\nCargo category: ${data.get('cargo_category')}\nDetails: ${data.get('details')}`;
       window.open(`https://wa.me/252634823310?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
